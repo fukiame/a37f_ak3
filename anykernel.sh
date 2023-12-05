@@ -1,7 +1,7 @@
 # AnyKernel3 Ramdisk Mod Script
 # osm0sis @ xda-developers
 properties() { '
-kernel.string=MOCHI
+kernel.string=
 do.devicecheck=0
 do.modules=0
 do.systemless=0
@@ -25,15 +25,6 @@ chmod -R 750 $ramdisk/*;
 chown -R root:root $ramdisk/*;
 
 dump_boot;
-
-ui_print "*******************************************"
-ui_print "Updating Kernel and Patching cmdline..."
-ui_print "*******************************************"
-
-
-ui_print "*******************************************"
-ui_print "Brought to you by MOCHI (TG: @mochi_wwww)"
-ui_print "*******************************************"
 
 patch_cmdline androidboot.selinux androidboot.selinux=permissive
 
