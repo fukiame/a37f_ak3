@@ -2,14 +2,14 @@
 # osm0sis @ xda-developers
 properties() { '
 kernel.string=
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=test
-device.name2=
-device.name3=
+device.name1=A37
+device.name2=A37f
+device.name3=A37fw
 device.name4=
 device.name5=
 supported.versions=
